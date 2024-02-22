@@ -14,5 +14,5 @@
 ## Uprawnienia ADMINISTRACJI na MTA
 > **Note:** Pozwoli Ci to nadać uprawnienia administracji, dla swoich członków.
 - Odszukaj **server_admins** w bazie danych
-- Wstaw nowy wpis, zawierający SERIAL z MTA użytkownika oraz wprowadź w postaći liczby permisje (RANGĘ)
+- Wstaw nowy wpis, zawierający SERIAL z MTA użytkownika oraz wprowadź w postaci liczby permisje (RANGĘ)
 > **Note:** 10 - ROOT, 7 - ADMIN, 6 - MOD, 5 - SUP
