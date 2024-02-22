@@ -1,0 +1,14 @@
+<meta>
+	<!-- SERVERSIDE !-->
+	<script src="server.lua" type="server" />
+	<!-- CLIENTSIDE !-->
+    <script src="client.lua" type="client" />
+	
+	<file src="migotanie.png" />
+	<file src="zatokowy.png" />
+	<file src="asystolia.jpg" />
+	
+	<file src="asystolia.mp3" />
+	<file src="zatokowy.mp3" />
+	<file src="migotanie.mp3" />
+</meta>

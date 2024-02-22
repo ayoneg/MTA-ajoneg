@@ -1,0 +1,6 @@
+<meta>
+	<script src="client.lua" type="client" cache="false" />
+	<export function="uszkooo" type="client" />
+	
+	<script src="server.lua" type="server" />
+</meta>

@@ -1,0 +1,15 @@
+
+okn = {}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        okn.panel = guiCreateWindow(0.28, 0.30, 0.44, 0.39, "Panel pojazdów organizacji", true)
+        guiWindowSetSizable(okn.panel, false)
+
+        okn.panellista = guiCreateGridList(0.02, 0.08, 0.60, 0.86, true, okn.panel)
+        guiGridListAddColumn(okn.panellista, "Pojazd", 0.3)
+        guiGridListAddColumn(okn.panellista, "ID", 0.3)
+        guiGridListAddColumn(okn.panellista, "Organizacja", 0.3)
+        okn.btn_przepisz = guiCreateButton(0.64, 0.08, 0.34, 0.15, "Przepisz na organizacje", true, okn.panel)
+        okn.btn_exit = guiCreateButton(0.64, 0.26, 0.34, 0.15, "Wyjdz", true, okn.panel)    
+    end
+)

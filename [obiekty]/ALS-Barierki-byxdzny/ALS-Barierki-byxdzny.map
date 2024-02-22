@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main">
+    <object id="object (fenceshit3) (3)" breakable="true" interior="0" alpha="255" dimension="0" model="983" scale="1" doublesided="false" collisions="true" frozen="false" posX="1621.9" posY="206.06" posZ="31.59" rotX="356.001" rotY="0" rotZ="346.745"></object>
+    <object id="object (fenceshit) (4)" breakable="true" interior="0" alpha="255" dimension="0" model="982" scale="1" doublesided="false" collisions="true" frozen="false" posX="1612.4004" posY="166.7998" posZ="34.3" rotX="356.501" rotY="0" rotZ="346.569"></object>
+    <object id="object (fenceshit2) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="984" scale="1" doublesided="false" collisions="true" posX="1646.7" posY="178" posZ="32.9" rotX="356" rotY="0" rotZ="346.75"></object>
+    <object id="object (fenceshit) (5)" breakable="true" interior="0" alpha="255" dimension="0" model="982" scale="1" doublesided="false" collisions="true" posX="1640" posY="160.10001" posZ="34.2" rotX="356.5" rotY="0" rotZ="336"></object>
+    <object id="object (fenceshit3) (4)" breakable="true" interior="0" alpha="255" dimension="0" model="983" scale="1" doublesided="false" collisions="true" posX="1598" posY="106.81" posZ="37.3" rotX="0" rotY="0" rotZ="334.75"></object>
+    <object id="object (fenceshit) (6)" breakable="true" interior="0" alpha="255" dimension="0" model="982" scale="1" doublesided="false" collisions="true" frozen="false" posX="1618.4004" posY="191.66016" posZ="32.62" rotX="356.001" rotY="0" rotZ="346.317"></object>
+    <object id="object (fenceshit2) (7)" breakable="true" interior="0" alpha="255" dimension="0" model="984" scale="1" doublesided="false" collisions="true" posX="1593.9004" posY="98.09961" posZ="37.25" rotX="0" rotY="0" rotZ="334.995"></object>
+    <object id="object (fenceshit2) (8)" breakable="true" interior="0" alpha="255" dimension="0" model="984" scale="1" doublesided="false" collisions="true" posX="1624.8" posY="98" posZ="36.9" rotX="359.5" rotY="0" rotZ="1.748"></object>
+    <object id="object (fenceshit3) (8)" breakable="true" interior="0" alpha="255" dimension="0" model="983" scale="1" doublesided="false" collisions="true" posX="1625.7" posY="88.43" posZ="37" rotX="0" rotY="0" rotZ="12.248"></object>
+</map>

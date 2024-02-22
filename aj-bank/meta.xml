@@ -1,0 +1,7 @@
+<meta>
+	<!-- SERVERSIDE !-->
+	<script src="server.lua" type="server" />
+
+	<!-- CLIENTSIDE !-->
+	<script src='client.lua' type='client' cache='false'/>
+</meta>

@@ -1,0 +1,24 @@
+
+panelorg = {}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        panelorg.okno = guiCreateWindow(0.20, 0.19, 0.60, 0.62, "Panel organizacji", true)
+        guiWindowSetSizable(panelorg.okno, false)
+
+        panelorg.lista = guiCreateGridList(0.03, 0.11, 0.94, 0.71, true, panelorg.okno)
+        guiGridListAddColumn(panelorg.lista, "Nick", 0.2)
+        guiGridListAddColumn(panelorg.lista, "Ranga", 0.2)
+        guiGridListAddColumn(panelorg.lista, "Dołączył/a", 0.2)
+        guiGridListAddColumn(panelorg.lista, "Ostatnio aktywny/a", 0.2)
+        guiGridListAddColumn(panelorg.lista, "Status", 0.2)
+        guiGridListAddRow(panelorg.lista)
+        guiGridListSetItemText(panelorg.lista, 0, 1, "-", false, false)
+        guiGridListSetItemText(panelorg.lista, 0, 2, "-", false, false)
+        guiGridListSetItemText(panelorg.lista, 0, 3, "-", false, false)
+        guiGridListSetItemText(panelorg.lista, 0, 4, "-", false, false)
+        guiGridListSetItemText(panelorg.lista, 0, 5, "-", false, false)
+        panelorg.edit_btn = guiCreateButton(0.03, 0.85, 0.29, 0.11, "Edytuj członka", true, panelorg.okno)
+        panelorg.kick_btn = guiCreateButton(0.33, 0.85, 0.29, 0.11, "Wyrzuć z organizacji", true, panelorg.okno)
+        panelorg.exit_btn = guiCreateButton(0.63, 0.85, 0.34, 0.11, "Zamknij panel", true, panelorg.okno)    
+    end
+)

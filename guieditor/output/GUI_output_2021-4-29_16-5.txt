@@ -1,0 +1,29 @@
+
+GUIEditor = {
+    button = {},
+    window = {},
+    edit = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(0, 0, 581, 1080, "", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+
+        GUIEditor.button[1] = guiCreateButton(54, 516, 469, 89, "Zaloguj!", false)
+
+
+        GUIEditor.edit[1] = guiCreateEdit(54, 301, 467, 54, "", false)
+
+
+        GUIEditor.edit[2] = guiCreateEdit(54, 417, 467, 54, "", false)    
+    end
+)
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawText("AjonEG @ testserwer", 54, 10, 521, 215, tocolor(255, 255, 255, 255), 2.20, "default-bold", "center", "center", false, false, true, false, false)
+        dxDrawText("Podaj nick:", 54, 271, 274, 291, tocolor(255, 255, 255, 255), 1.00, "default", "left", "top", false, false, true, false, false)
+        dxDrawText("Podaj hasło:", 54, 389, 274, 407, tocolor(255, 255, 255, 255), 1.00, "default", "left", "top", false, false, true, false, false)
+    end
+)

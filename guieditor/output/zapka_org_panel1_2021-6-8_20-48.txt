@@ -1,0 +1,17 @@
+
+panelorg = {}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        panelorg.okno3 = guiCreateWindow(0.39, 0.37, 0.22, 0.26, "Dodawanie do organizacji", true)
+        guiWindowSetSizable(panelorg.okno3, false)
+
+        panelorg.inputzapki = guiCreateEdit(0.07, 0.25, 0.85, 0.19, "", true, panelorg.okno3)
+        panelorg.btnzapki = guiCreateButton(0.07, 0.62, 0.84, 0.26, "Wyślij zaproszenie", true, panelorg.okno3)
+        panelorg.desczapki2 = guiCreateLabel(0.07, 0.46, 0.84, 0.12, "Zanim gracz dołączy, musi zaakceptować wysłane zaproszenie.", true, panelorg.okno3)
+        guiLabelSetHorizontalAlign(panelorg.desczapki2, "center", false)
+        guiLabelSetVerticalAlign(panelorg.desczapki2, "center")
+        panelorg.desczapki = guiCreateLabel(0.07, 0.10, 0.84, 0.12, "Podaj pełny nick lub ID gracza.", true, panelorg.okno3)
+        guiLabelSetHorizontalAlign(panelorg.desczapki, "center", false)
+        guiLabelSetVerticalAlign(panelorg.desczapki, "center")    
+    end
+)

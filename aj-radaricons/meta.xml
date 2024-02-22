@@ -1,0 +1,5 @@
+<meta>
+	<script src="shader.lua" type="client" cache="false" />
+	<file src="shader/shader.fx" />
+	<file src="img/49.png" />
+</meta>

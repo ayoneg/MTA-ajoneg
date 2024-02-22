@@ -1,0 +1,5 @@
+<meta>
+	<file src="patriot.txd" />
+	<file src="patriot.dff" />
+	<script type="client" src="replace.lua" />
+</meta>

@@ -1,0 +1,6 @@
+﻿<meta>
+    <script src="replace.lua" type="client" />
+    <file src="foto.dff" />
+    <file src="foto.col" />
+    <file src="foto.txd" />
+</meta>

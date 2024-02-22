@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <object id="object (ab_casdorLok) (1)" breakable="true" interior="3" alpha="255" dimension="0" model="3089" scale="1.2" doublesided="false" collisions="true" frozen="false" posX="-2030.6" posY="-113.2" posZ="1035.7" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (est_chair1) (2)" radius="2.7065144" interior="0" model="1721" lodModel="0" posX="-2026.6094" posY="-116.4375" posZ="1034.1641" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

@@ -1,0 +1,10 @@
+<meta>
+	<script src="client.lua" type="client" cache="false" />
+	<script src="server.lua" type="server" />
+	
+	<file src="cursor.png" />
+	<file src="h.png" />
+	<file src="sv.png" />
+	<file src="blank.png" />
+	<script src="picker_client.lua" type="client" cache="false" />
+</meta>

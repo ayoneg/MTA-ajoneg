@@ -1,0 +1,9 @@
+<meta>
+	<oop>true</oop>
+	<export function="zapiszPoj" type="server" />
+	<export function="przeladujPoj" type="server" />
+	<export function="respPojazd" type="server" />
+	<export function="zapiszPojazd" type="server" />
+	
+    <script src='server.lua' type='server' />
+</meta>

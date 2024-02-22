@@ -1,0 +1,99 @@
+<meta>
+<script src="replace.lua" type="client"/>
+
+<file src="skin_9.txd" />
+<file src="skin_9.dff" />
+
+<file src="skin_11.txd" />
+<file src="skin_11.dff" />
+
+<file src="skin_20.txd" />
+<file src="skin_20.dff" />
+
+<file src="skin_70.txd" />
+<file src="skin_70.dff" />
+
+<file src="skin_82.txd" />
+<file src="skin_82.dff" />
+
+<file src="skin_83.txd" />
+<file src="skin_83.dff" />
+
+<file src="skin_84.txd" />
+<file src="skin_84.dff" />
+
+<file src="skin_87.txd" />
+<file src="skin_87.dff" />
+
+<file src="skin_97.txd" />
+<file src="skin_97.dff" />
+
+<file src="skin_124.txd" />
+<file src="skin_124.dff" />
+
+<file src="skin_125.txd" />
+<file src="skin_125.dff" />
+
+<file src="skin_126.txd" />
+<file src="skin_126.dff" />
+
+<file src="skin_140.txd" />
+<file src="skin_140.dff" />
+
+<file src="skin_178.txd" />
+<file src="skin_178.dff" />
+
+<file src="skin_198.txd" />
+<file src="skin_198.dff" />
+
+<file src="skin_201.txd" />
+<file src="skin_201.dff" />
+
+<file src="skin_211.txd" />
+<file src="skin_211.dff" />
+
+<file src="skin_244.txd" />
+<file src="skin_244.dff" />
+
+<file src="skin_245.txd" />
+<file src="skin_245.dff" />
+
+<file src="skin_246.txd" />
+<file src="skin_246.dff" />
+
+<file src="skin_248.txd" />
+<file src="skin_248.dff" />
+
+<file src="skin_256.txd" />
+<file src="skin_256.dff" />
+
+<file src="skin_257.txd" />
+<file src="skin_257.dff" />
+<!--
+<file src="skin_261.txd" />
+<file src="skin_261.dff" />
+-->
+<file src="skin_262.txd" />
+<file src="skin_262.dff" />
+<!--
+<file src="skin_296.txd" />
+<file src="skin_296.dff" />
+-->
+<file src="skin_298.txd" />
+<file src="skin_298.dff" />
+
+<file src="skin_300.txd" />
+<file src="skin_300.dff" />
+
+<file src="skin_301.txd" />
+<file src="skin_301.dff" />
+
+<file src="skin_302.txd" />
+<file src="skin_302.dff" />
+
+<file src="skin_304.txd" />
+<file src="skin_304.dff" />
+
+<file src="skin_310.txd" />
+<file src="skin_310.dff" />
+</meta>

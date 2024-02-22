@@ -1,0 +1,6 @@
+<meta> 
+<info author="Maciek" name="Dockbar_white" version="1.0.5" type="script"/> 
+<script src="script.lua" type="client"/> 
+<file src="dockbarwhite.txd" type="client"/> 
+<file src="dockbarwhite.dff" type="client"/> 
+</meta> 

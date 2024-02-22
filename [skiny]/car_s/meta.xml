@@ -1,0 +1,14 @@
+<meta>
+<script src="replace.lua" type="client"/>
+<file src="bravura.txd" />
+<file src="bravura.dff" />
+<file src="vgnmall.txd" />
+<file src="pizzaboy.txd" />
+
+<file src="dft30.dff" />
+
+<file src="stratum_new.dff" />
+
+<file src="continx.txd" />
+
+</meta>

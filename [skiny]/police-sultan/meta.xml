@@ -1,0 +1,5 @@
+<meta>
+<script src="replace.lua" type="client"/>
+<file src="sultan.txd" />
+<file src="sultan.dff" />
+</meta>

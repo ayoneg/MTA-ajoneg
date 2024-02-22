@@ -1,0 +1,13 @@
+<map edf:definitions="editor_main">
+    <object id="object (DockBarr1_LA) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="3578" scale="1" doublesided="false" collisions="true" frozen="false" posX="1696.4" posY="955.91302" posZ="9.038" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DockBarr1_LA) (2)" breakable="true" interior="0" alpha="255" dimension="0" model="3578" scale="1" doublesided="false" collisions="false" frozen="false" posX="1705.4004" posY="955.90039" posZ="9.04" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DockBarr1_LA) (4)" breakable="true" interior="0" alpha="255" dimension="0" model="3578" scale="1" doublesided="false" collisions="false" frozen="false" posX="1705.4004" posY="966.52228" posZ="9.038" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DockBarr1_LA) (5)" breakable="true" interior="0" alpha="255" dimension="0" model="3578" scale="1" doublesided="false" collisions="false" frozen="false" posX="1696.413" posY="966.53326" posZ="9.038" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DockBarr1_LA) (6)" breakable="true" interior="0" alpha="255" dimension="0" model="3578" scale="1" doublesided="false" collisions="false" frozen="false" posX="1691.5334" posY="961.32031" posZ="9.038" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (fenceshit) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="982" scale="1" doublesided="false" collisions="true" posX="1757.3" posY="985" posZ="10.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit) (2)" breakable="true" interior="0" alpha="255" dimension="0" model="982" scale="1" doublesided="false" collisions="true" posX="1757.3" posY="985" posZ="11.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit) (3)" breakable="true" interior="0" alpha="255" dimension="0" model="982" scale="1" doublesided="false" collisions="true" posX="1757.3" posY="985" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit) (4)" breakable="true" interior="0" alpha="255" dimension="0" model="982" scale="1" doublesided="false" collisions="true" posX="1757.3" posY="959.40002" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit) (5)" breakable="true" interior="0" alpha="255" dimension="0" model="982" scale="1" doublesided="false" collisions="true" posX="1757.3" posY="959.40002" posZ="11.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit) (6)" breakable="true" interior="0" alpha="255" dimension="0" model="982" scale="1" doublesided="false" collisions="true" posX="1757.3" posY="959.40002" posZ="10.5" rotX="0" rotY="0" rotZ="0"></object>
+</map>

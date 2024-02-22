@@ -1,0 +1,58 @@
+
+organizacja = {}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        organizacja.panel = guiCreateWindow(0.17, 0.17, 0.66, 0.65, "Panel organizacji", true)
+        guiWindowSetMovable(organizacja.panel, false)
+        guiWindowSetSizable(organizacja.panel, false)
+
+        organizacja.tabpanel = guiCreateTabPanel(0.01, 0.11, 0.98, 0.77, true, organizacja.panel)
+
+        organizacja.tab_1 = guiCreateTab("Regulamin", organizacja.tabpanel)
+
+        organizacja.regulamin = guiCreateMemo(0.02, 0.05, 0.96, 0.89, "", true, organizacja.tab_1)
+
+        organizacja.tab_2 = guiCreateTab("Lista organizacji", organizacja.tabpanel)
+
+        organizacja.grindlist = guiCreateGridList(0.02, 0.05, 0.95, 0.90, true, organizacja.tab_2)
+        guiGridListAddColumn(organizacja.grindlist, "Nazwa", 0.3)
+        guiGridListAddColumn(organizacja.grindlist, "Skrót", 0.3)
+        guiGridListAddColumn(organizacja.grindlist, "Członkowie", 0.3)
+
+        organizacja.tab_3 = guiCreateTab("Rejestracja organizacja", organizacja.tabpanel)
+
+        organizacja.nazwa_org = guiCreateEdit(0.26, 0.18, 0.29, 0.08, "", true, organizacja.tab_3)
+        organizacja.nazwa_org_desc = guiCreateLabel(0.08, 0.18, 0.17, 0.08, "Nazwa organizacji:", true, organizacja.tab_3)
+        guiLabelSetHorizontalAlign(organizacja.nazwa_org_desc, "center", false)
+        guiLabelSetVerticalAlign(organizacja.nazwa_org_desc, "center")
+        organizacja.skrot_org_desc = guiCreateLabel(0.55, 0.18, 0.17, 0.08, "Skrót organizacji:", true, organizacja.tab_3)
+        guiLabelSetHorizontalAlign(organizacja.skrot_org_desc, "center", false)
+        guiLabelSetVerticalAlign(organizacja.skrot_org_desc, "center")
+        organizacja.skrot_org = guiCreateEdit(0.72, 0.18, 0.16, 0.08, "", true, organizacja.tab_3)
+        organizacja.link_strony_desc = guiCreateLabel(0.08, 0.31, 0.17, 0.08, "Strona / Discord org.:", true, organizacja.tab_3)
+        guiLabelSetHorizontalAlign(organizacja.link_strony_desc, "center", false)
+        guiLabelSetVerticalAlign(organizacja.link_strony_desc, "center")
+        organizacja.link_strony = guiCreateEdit(0.26, 0.31, 0.29, 0.08, "", true, organizacja.tab_3)
+        organizacja.hex_color_desc = guiCreateLabel(0.55, 0.31, 0.17, 0.08, "Kolor (hex, np.: #ffffff)", true, organizacja.tab_3)
+        guiLabelSetHorizontalAlign(organizacja.hex_color_desc, "center", false)
+        guiLabelSetVerticalAlign(organizacja.hex_color_desc, "center")
+        organizacja.hex_color = guiCreateEdit(0.72, 0.31, 0.16, 0.08, "", true, organizacja.tab_3)
+        organizacja.nazwy_rang_desc = guiCreateLabel(0.08, 0.44, 0.17, 0.08, "Nazwy rang:", true, organizacja.tab_3)
+        guiLabelSetHorizontalAlign(organizacja.nazwy_rang_desc, "center", false)
+        guiLabelSetVerticalAlign(organizacja.nazwy_rang_desc, "center")
+        organizacja.lider_org = guiCreateEdit(0.26, 0.44, 0.14, 0.08, "Lider", true, organizacja.tab_3)
+        organizacja.vicelider_org = guiCreateEdit(0.41, 0.44, 0.14, 0.08, "Vice Lider", true, organizacja.tab_3)
+        organizacja.czlonek_org = guiCreateEdit(0.56, 0.44, 0.15, 0.08, "Członek", true, organizacja.tab_3)
+        organizacja.rekrut_org = guiCreateEdit(0.72, 0.44, 0.16, 0.08, "Nick", true, organizacja.tab_3)
+        organizacja.opis_org = guiCreateMemo(0.08, 0.56, 0.80, 0.19, "Opis organizacji...", true, organizacja.tab_3)
+        organizacja.koszt_zalozenia_desc = guiCreateLabel(0.09, 0.82, 0.17, 0.13, "Kosz założenia: 10000$", true, organizacja.tab_3)
+        guiSetFont(organizacja.koszt_zalozenia_desc, "default-bold-small")
+        guiLabelSetColor(organizacja.koszt_zalozenia_desc, 28, 143, 5)
+        guiLabelSetVerticalAlign(organizacja.koszt_zalozenia_desc, "center")
+        organizacja.rejestracja_org = guiCreateButton(778, 422, 327, 66, "Rejestracja", false, organizacja.tab_3)
+
+        organizacja.tab_4 = guiCreateTab("Edit", organizacja.tabpanel)
+
+        organizacja.exit_button = guiCreateButton(872, 626, 392, 68, "Zamknij panel", false, organizacja.panel)    
+    end
+)

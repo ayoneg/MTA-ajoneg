@@ -1,0 +1,19 @@
+
+dom = {}
+okno = {}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+local screenW, screenH = guiGetScreenSize()
+        dom.okno2 = guiCreateWindow((screenW - 339) / 2, (screenH - 351) / 2, 339, 351, "Opłać dom", false)
+        guiWindowSetSizable(dom.okno2, false)
+        guiSetAlpha(dom.okno2, 0.90)
+
+        okno.input_days = guiCreateEdit(35, 56, 270, 56, "", false, dom.okno2)
+        okno.desc_info2 = guiCreateLabel(36, 33, 210, 23, "Na ile dni (max 30):", false, dom.okno2)
+        guiLabelSetVerticalAlign(okno.desc_info2, "center")
+        okno.btn_zaplac = guiCreateButton(36, 173, 269, 70, "Potwierdzam i płace", false, dom.okno2)
+        okno.btn_exit2 = guiCreateButton(35, 253, 269, 70, "Zamknij", false, dom.okno2)
+        okno.desc_info3 = guiCreateLabel(36, 119, 210, 44, "Cena za dobe: 100$\n\nRazem do zapłaty: 1700$", false, dom.okno2)
+        guiLabelSetVerticalAlign(okno.desc_info3, "center")    
+    end
+)

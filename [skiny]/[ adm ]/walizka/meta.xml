@@ -1,0 +1,6 @@
+<meta>
+    <file src='briefcase.dff' />
+    <file src='briefcase.txd' />
+	
+    <script src="replace.lua" type="client" />
+</meta>

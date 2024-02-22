@@ -1,0 +1,25 @@
+<meta>
+	<script src="s-tp.lua" type="server" />
+	<script src="s_pg.lua" type="server" />
+	<script src="c_pg.lua" type="client" cache="false" />
+	
+	<script src="s_admcmd.lua" type="server" />
+	<script src="c_admcmd.lua" type="client" cache="false" />	
+	
+	<script src="s_cmd.lua" type="server" />
+	<script src="c_cmd.lua" type="client" cache="false" />	
+	
+	<script src="s_raport.lua" type="server" />
+	<script src="c_raport.lua" type="client" cache="false" />	
+	
+	<script src="s_engine.lua" type="server" />
+	
+	<script src="c_nametag.lua" type="client" cache="false" />
+	
+	<file src="shader.fx" />
+	<file src="test1.png" />
+	<file src="test2.png" />
+	
+	<export function="uszkooo" type="client" />
+	<export function="findPlayer" type="server" />
+</meta>

@@ -1,0 +1,13 @@
+
+gielda = {}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        gielda.okno = guiCreateWindow(0.40, 0.39, 0.20, 0.22, "Wystaw pojazd", true)
+        guiWindowSetSizable(gielda.okno, false)
+
+        gielda.input_cost = guiCreateEdit(0.13, 0.24, 0.75, 0.21, "", true, gielda.okno)
+        gielda.btn_submit = guiCreateButton(0.13, 0.62, 0.75, 0.22, "Wystaw pojazd", true, gielda.okno)
+        gielda.desc_cost = guiCreateLabel(0.14, 0.13, 0.44, 0.11, "Cena:", true, gielda.okno)
+        guiLabelSetVerticalAlign(gielda.desc_cost, "center")    
+    end
+)

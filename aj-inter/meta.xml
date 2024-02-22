@@ -1,0 +1,29 @@
+<meta>
+	<script src="client.lua" type="client" cache="false" />
+	<script src="server.lua" type="server"/>
+	<file src="background1.png" />
+	<file src="silnik.png" />
+	<file src="reczny.png" />
+	<file src="lampy.png" />
+	<file src="car/u_silnik.png" />
+    <file src="car/w_silnik.png" />
+	<file src="car/z_reczny.png" />
+    <file src="car/zw_reczny.png" />
+	<file src="car/z_zamek.png" />
+    <file src="car/o_zamek.png" />
+	<file src="car/w_lampy.png" />
+	<file src="car/wl_lampy.png" />	
+    <file src="car/z_lampy.png" />
+	<file src="car/zamek.png" />
+    <file src="car/silnik.png" />
+	<file src="car/reczny.png" />
+    <file src="car/lampy.png" />
+	
+    <file src="car/maska.png" />
+    <file src="car/o_maska.png" />
+    <file src="car/z_maska.png" />
+    <file src="car/bagaznik.png" />
+    <file src="car/o_bagaznik.png" />
+    <file src="car/z_bagaznik.png" />
+    <file src="car/pasazerowie.png" />	
+</meta>

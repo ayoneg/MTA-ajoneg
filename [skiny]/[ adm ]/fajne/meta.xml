@@ -1,0 +1,5 @@
+<meta>
+	<info type="misc" name="SAFD SKIN PACK" author="Unknown" description="" version="1" />
+	<file src="shopliquor_las.txd" />
+	<script type="client" src="replace.lua" />
+</meta>

@@ -1,0 +1,22 @@
+
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        panel_reg = guiCreateWindow(0.32, 0.22, 0.50, 0.50, "Nowe konto", true)
+        guiWindowSetSizable(panel_reg, false)
+
+        panel_reg_input_nick = guiCreateEdit(0.05, 0.13, 0.37, 0.10, "", true, panel_reg)
+        panel_reg_input_haslo = guiCreateEdit(0.05, 0.29, 0.37, 0.10, "", true, panel_reg)
+        panel_reg_input_ponownie_haslo = guiCreateEdit(0.05, 0.46, 0.37, 0.10, "", true, panel_reg)
+        panel_reg_buttonstart = guiCreateButton(0.05, 0.78, 0.37, 0.17, "Stwórz nowe konto", true, panel_reg)
+        panel_reg_nick = guiCreateLabel(0.05, 0.10, 0.20, 0.05, "Podaj nick (login):", true, panel_reg)
+        panel_reg_haslo = guiCreateLabel(0.05, 0.26, 0.20, 0.05, "Podaj hasło:", true, panel_reg)
+        panel_reg_ponownie_haslo = guiCreateLabel(0.05, 0.43, 0.20, 0.05, "Ponownie podaj hasło:", true, panel_reg)
+        panel_regulamin_desc = guiCreateMemo(0.47, 0.13, 0.48, 0.69, ":-)\n:-D\nble ble", true, panel_reg)
+        panel_regulamin = guiCreateLabel(0.47, 0.10, 0.20, 0.05, "Regulamin serwera:", true, panel_reg)
+        reg_regulamin_zgoda = guiCreateCheckBox(0.58, 0.86, 0.37, 0.08, "Przeczytałem/am oraz zgadzam się z regulaminem serwera.", false, true, panel_reg)
+        reg_kobieta = guiCreateRadioButton(0.05, 0.67, 0.17, 0.05, "Kobieta", true, panel_reg)
+        reg_mezczyzna = guiCreateRadioButton(0.25, 0.67, 0.17, 0.05, "Mężczyzna", true, panel_reg)
+        guiRadioButtonSetSelected(reg_mezczyzna, true)
+        panel_reg_postac-w_grze = guiCreateLabel(0.05, 0.63, 0.20, 0.05, "Postać w grze:", true, panel_reg)    
+    end
+)

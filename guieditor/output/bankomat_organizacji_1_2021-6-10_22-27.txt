@@ -1,0 +1,25 @@
+
+bo = {}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        bo.okno = guiCreateWindow(0.20, 0.21, 0.60, 0.59, "Bankomat organizacji", true)
+        guiWindowSetSizable(bo.okno, false)
+
+        bo.lista = guiCreateGridList(0.03, 0.07, 0.65, 0.88, true, bo.okno)
+        guiGridListAddColumn(bo.lista, "Nick", 0.2)
+        guiGridListAddColumn(bo.lista, "Kwota", 0.2)
+        guiGridListAddColumn(bo.lista, "Data", 0.2)
+        guiGridListAddColumn(bo.lista, "Opis", 0.2)
+        bo.exit_btn = guiCreateButton(0.69, 0.82, 0.30, 0.13, "Zamknij", true, bo.okno)
+        bo.kwota = guiCreateEdit(0.69, 0.12, 0.30, 0.08, "", true, bo.okno)
+        guiEditSetMaxLength(bo.kwota, 999999)
+        bo.opis = guiCreateEdit(0.69, 0.26, 0.30, 0.08, "", true, bo.okno)
+        guiEditSetMaxLength(bo.opis, 200)
+        bo.wplac_btn = guiCreateButton(0.69, 0.40, 0.30, 0.13, "Wpłać", true, bo.okno)
+        bo.kwota_desc = guiCreateLabel(0.69, 0.07, 0.18, 0.04, "Kwota:", true, bo.okno)
+        guiLabelSetVerticalAlign(bo.kwota_desc, "center")
+        bo.opis_desc = guiCreateLabel(0.69, 0.22, 0.18, 0.04, "Opis:", true, bo.okno)
+        guiLabelSetVerticalAlign(bo.opis_desc, "center")
+        bo.wyplac_btn = guiCreateButton(0.69, 0.54, 0.30, 0.07, "Wypłać", true, bo.okno)    
+    end
+)

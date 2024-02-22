@@ -1,0 +1,12 @@
+
+editusorg = {}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        editusorg.okno = guiCreateWindow(0.39, 0.33, 0.22, 0.39, "Panel edycji członków", true)
+        guiWindowSetSizable(editusorg.okno, false)
+
+        editusorg.listarang = guiCreateComboBox(0.11, 0.16, 0.77, 0.39, "", true, editusorg.okno)
+        editusorg.btn_edit = guiCreateButton(0.11, 0.62, 0.77, 0.17, "Edytuj członka", true, editusorg.okno)
+        editusorg.btn_exit = guiCreateButton(0.11, 0.82, 0.77, 0.10, "Anuluj", true, editusorg.okno)    
+    end
+)

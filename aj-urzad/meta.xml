@@ -1,0 +1,10 @@
+<meta>
+	<!-- SERVERSIDE !-->
+	<script src="server.lua" type="server" />
+	<script src="s_cfg.lua" type="server" />
+	<script src="s_noti.lua" type="server" />
+	<!-- CLIENTSIDE !-->
+    <script src="client.lua" type="client" cache="false" />
+	<script src="c_cfg.lua" type="client" cache="false" />
+	<script src="c_noti.lua" type="client" cache="false" />
+</meta>

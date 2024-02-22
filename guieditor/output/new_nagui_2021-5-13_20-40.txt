@@ -1,0 +1,30 @@
+--[[-------------------------------------------------
+Notes:
+
+> This code is using a relative image filepath. This will only work as long as the location it is from always exists, and the resource it is part of is running.
+    To ensure it does not break, it is highly encouraged to move images into your local resource and reference them there.
+--]]-------------------------------------------------
+
+
+GUIEditor = {
+    label = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        global_box = guiCreateStaticImage(0.00, 0.00, 0.32, 1.00, ":log2/back10.png", true)
+
+        panel_logo = guiCreateStaticImage(0.25, 0.07, 0.46, 0.25, ":log2/ajoneg.png", true, global_box)
+        panel_name_input = guiCreateEdit(0.07, 0.42, 0.85, 0.06, "", true, global_box)
+        panel_haslo_input = guiCreateEdit(0.07, 0.53, 0.85, 0.06, "", true, global_box)
+        guiEditSetMasked(panel_haslo_input, true)
+        panel_login_info = guiCreateLabel(0.07, 0.39, 0.44, 0.02, "Podaj login:", true, global_box)
+        panel_haslo_info = guiCreateLabel(0.07, 0.51, 0.44, 0.02, "Podaj hasło:", true, global_box)
+        panel_button_zaloguj = guiCreateButton(0.07, 0.63, 0.85, 0.09, "Zaloguj", true, global_box)
+        panel_button_nowekonto = guiCreateButton(0.62, 0.73, 0.30, 0.04, "Nowe konto -->", true, global_box)
+        GUIEditor.label[1] = guiCreateLabel(0.06, 0.80, 0.86, 0.05, "ERROR", true, global_box)
+        guiSetFont(GUIEditor.label[1], "default-bold-small")
+        guiLabelSetColor(GUIEditor.label[1], 169, 0, 0)
+        guiLabelSetHorizontalAlign(GUIEditor.label[1], "center", true)
+        guiLabelSetVerticalAlign(GUIEditor.label[1], "center")    
+    end
+)

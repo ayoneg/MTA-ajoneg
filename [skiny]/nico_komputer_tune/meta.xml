@@ -1,0 +1,6 @@
+﻿<meta>
+    <script src="client.lua" type="client" />
+    <file src="mich_int_sfe.dff" />
+    <file src="mich_int_sfe.col" />
+
+</meta>

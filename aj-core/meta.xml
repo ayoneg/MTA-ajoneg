@@ -1,0 +1,13 @@
+<meta>
+    <oop>true</oop>
+    <script src="s-pm.lua" type="server" />
+	<script src="s-czats.lua" type="server" />
+	<script src="s-carshe.lua" type="server" />
+	<script src="s-zebracy.lua" type="server" />
+	<export function="uszkooo" type="client" />
+	<script src="client.lua" type="client" cache="false" />
+	<script src="s-userpanel.lua" type="server" cache="false" />
+	<script src="c-userpanel.lua" type="client" cache="false" />
+	<file src="01.png" />
+
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+	<oop>true</oop>
+	<export function="vehSirens" type="server" />
+    
+    <script src="server.lua" type="server" />
+</meta>

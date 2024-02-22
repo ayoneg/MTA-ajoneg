@@ -1,0 +1,26 @@
+
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        log:loginbt = guiCreateButton(0.03, 0.57, 0.16, 0.08, "Zaloguj", true)
+
+
+        log:regbt = guiCreateButton(0.20, 0.57, 0.08, 0.08, "Nowe konto +", true)
+
+
+        log:login = guiCreateEdit(0.03, 0.37, 0.25, 0.06, "", true)
+
+
+        log:haslo = guiCreateEdit(0.03, 0.47, 0.25, 0.06, "", true)    
+    end
+)
+
+local screenW, screenH = guiGetScreenSize()
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawImage(screenW * 0.0000, screenH * 0.0000, screenW * 0.3026, screenH * 1.0000, ":log2/back10.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+        dxDrawImage(screenW * 0.0620, screenH * 0.0426, screenW * 0.1562, screenH * 0.2657, ":log2/ajoneg.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+        dxDrawText("Podaj login:", 56, 359, 349, 403, tocolor(255, 255, 255, 255), 1.00, "default", "left", "bottom", false, false, false, false, false)
+        dxDrawText("Podaj hasło:", 56, 468, 349, 512, tocolor(255, 255, 255, 255), 1.00, "default", "left", "bottom", false, false, false, false, false)
+    end
+)

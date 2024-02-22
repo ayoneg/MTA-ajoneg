@@ -1,0 +1,6 @@
+<meta>
+	<export function="upd" type="server" />
+	<export function="wyb" type="server" />
+    
+    <script src="server.lua" type="server" />
+</meta>

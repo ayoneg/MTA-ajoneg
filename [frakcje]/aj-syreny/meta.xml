@@ -1,0 +1,24 @@
+<meta>
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" cache="false" />
+	
+	<file src="policja1.ogg" />
+	<file src="syrenasapd.ogg" />
+	<file src="sapdhorn.wav" />
+	
+	
+	<file src="samchorn.wav" />
+	<file src="Dc255.ogg" /> 
+	<file src="Dc259.ogg" /> 
+	<file src="samc1.ogg" />
+	
+	<file src="siren-strom-1.wav" />
+	<file src="babyshark.wav" />
+	<file src="hespirates.wav" />
+	<file src="ultrakox.wav" />
+	<!--
+	<file src="psp1.ogg" />
+	<file src="psp2.mp3" />
+	-->
+	<file src="traby.ogg" />
+</meta>

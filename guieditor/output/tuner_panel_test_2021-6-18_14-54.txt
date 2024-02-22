@@ -1,0 +1,25 @@
+
+tuner = {}
+GUIEditor = {
+    edit = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+local screenW, screenH = guiGetScreenSize()
+        tuner.okno = guiCreateWindow(screenW - 622 - 10, (screenH - 715) / 2, 622, 715, "Panel tunera", false)
+        guiWindowSetSizable(tuner.okno, false)
+
+        tuner.listakomp = guiCreateGridList(15, 69, 590, 516, false, tuner.okno)
+        guiGridListAddColumn(tuner.listakomp, "Nazwa częsci", 0.5)
+        guiGridListAddColumn(tuner.listakomp, "Koszt", 0.5)
+
+        GUIEditor.edit[1] = guiCreateEdit(1, 617, 194, 72, "", false, tuner.listakomp)
+
+        tuner.doli_input = guiCreateEdit(15, 595, 128, 42, "", false, tuner.okno)
+        tuner.doli_info_desc = guiCreateLabel(157, 595, 125, 41, "% marży do ww. cen.", false, tuner.okno)
+        guiLabelSetVerticalAlign(tuner.doli_info_desc, "center")
+        tuner.btn_zamontuj = guiCreateButton(16, 651, 207, 49, "Zamontuj", false, tuner.okno)
+        tuner.btn_demontuj = guiCreateButton(233, 651, 207, 49, "Demontuj", false, tuner.okno)
+        tuner.btn_zamknij = guiCreateButton(450, 651, 155, 49, "Zamknij", false, tuner.okno)    
+    end
+)

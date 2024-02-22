@@ -1,0 +1,5 @@
+<meta>
+<script src="replace.lua" type="client"/>
+<file src="vgsn_billboard.txd" />
+<file src="vgsn_addboard01.dff" />
+</meta>

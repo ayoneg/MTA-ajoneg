@@ -1,0 +1,6 @@
+<root>
+	<radio name="RMF MAXX" path="http://www.miastomuzyki.pl/n/rmfmaxxx.pls" type="2" />
+	<radio name="RMF FM" path="http://rs6-krk2.rmfstream.pl/rmf_fm" type="2" />
+	<radio name="ESKA WARSZAWA" path="http://waw01-01.ic.smcdn.pl:8000/2380-1.mp3" type="2" />
+	<radio name="RADIO MARYJA" path="http://51.68.135.155/stream" type="2" />
+</root>

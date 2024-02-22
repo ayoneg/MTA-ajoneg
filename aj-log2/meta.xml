@@ -1,0 +1,11 @@
+<meta>
+    <script src="server.lua" type="server" />
+	<script src='client.lua' type='client' cache='false'/>
+	
+	<export function="uszkooo" type="client" />
+	
+	<file src="ajoneg.png" />
+	<file src="back10.png" />
+	<file src="Syn_Cole-Gizmo_[NCS_Release].mp3" />
+	<file src="Relax_Junona_Boys.mp3" />
+</meta>

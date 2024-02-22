@@ -1,0 +1,20 @@
+
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        panel_reg = guiCreateWindow(0.32, 0.22, 0.50, 0.46, "Nowe konto", true)
+        guiWindowSetSizable(panel_reg, false)
+
+        panel_reg_input_nick = guiCreateEdit(0.05, 0.14, 0.37, 0.11, "", true, panel_reg)
+        panel_reg_input_haslo = guiCreateEdit(0.05, 0.32, 0.37, 0.11, "", true, panel_reg)
+        panel_reg_input_ponownie_haslo = guiCreateEdit(0.05, 0.50, 0.37, 0.11, "", true, panel_reg)
+        panel_reg_buttonstart = guiCreateButton(0.05, 0.72, 0.37, 0.18, "Stwórz nowe konto", true, panel_reg)
+        panel_reg_nick = guiCreateLabel(0.05, 0.09, 0.20, 0.05, "Podaj nick (login):", true, panel_reg)
+        panel_reg_haslo = guiCreateLabel(0.05, 0.27, 0.20, 0.05, "Podaj hasło:", true, panel_reg)
+        panel_reg_ponownie_haslo = guiCreateLabel(0.05, 0.44, 0.20, 0.05, "Ponownie podaj hasło:", true, panel_reg)
+        panel_reg_info = guiCreateLabel(0.05, 0.62, 0.37, 0.07, "Klikając przycisk „Stwórz nowe konto”, w pełni zgadzasz się z regulaminem serwera.", true, panel_reg)
+        guiLabelSetHorizontalAlign(panel_reg_info, "left", true)
+        guiLabelSetVerticalAlign(panel_reg_info, "center")
+        panel_regulamin_desc = guiCreateMemo(0.47, 0.14, 0.48, 0.75, ":-)\n:-D\nble ble", true, panel_reg)
+        panel_regulamin = guiCreateLabel(0.47, 0.09, 0.20, 0.05, "Regulamin serwera:", true, panel_reg)    
+    end
+)

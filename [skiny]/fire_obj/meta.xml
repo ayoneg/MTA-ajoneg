@@ -1,0 +1,6 @@
+<meta>
+	<script src="part_c.lua" type="client" />
+	<file src="particles/fire.dff" />
+	<file src="particles/fire_med.dff" />
+	<file src="particles/fire_large.dff" />
+</meta>

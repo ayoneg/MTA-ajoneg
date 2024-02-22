@@ -1,0 +1,8 @@
+<meta>
+    <script src='client.lua' type='client' cache='false'/>
+    <file src='back-1a.png'/>
+    <file src='engine.png'/>
+	<file src='brake.png'/>
+	<file src='dot.png'/>
+    <oop>true</oop>
+</meta>

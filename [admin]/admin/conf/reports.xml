@@ -1,0 +1,16 @@
+<messages>
+    <message>
+        <subject>test</subject>
+        <category>Question</category>
+        <author>EW1223</author>
+        <time>2023-06-12 13:18</time>
+        <text>test&#x0A;</text>
+    </message>
+    <message>
+        <subject>test</subject>
+        <category>Question</category>
+        <author>EW1223</author>
+        <time>2023-06-12 13:19</time>
+        <text>test&#x0A;</text>
+    </message>
+</messages>

@@ -1,0 +1,19 @@
+
+dom = {}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+local screenW, screenH = guiGetScreenSize()
+        dom.okno = guiCreateWindow((screenW - 629) / 2, (screenH - 289) / 2, 629, 289, "Panel domu", false)
+        guiWindowSetSizable(dom.okno, false)
+
+        dom.btn_zwolnij = guiCreateButton(25, 33, 276, 37, "Zwolnij dom", false, dom.okno)
+        dom.btn_oplac = guiCreateButton(25, 80, 276, 37, "Opłać dom", false, dom.okno)
+        dom.btn_przepiszorg = guiCreateButton(25, 127, 276, 37, "Przepisz na organizacje", false, dom.okno)
+        dom.btn_exit = guiCreateButton(25, 234, 276, 37, "Zamknij panel", false, dom.okno)
+        dom.btn_zamknij = guiCreateButton(25, 174, 276, 37, "Zamknij dom", false, dom.okno)
+        dom.btn_wejdz = guiCreateButton(332, 33, 276, 84, "Wejdź do domu", false, dom.okno)
+        dom.desc_info = guiCreateLabel(332, 147, 276, 111, "Opłacony: dd-mm-rrrr\n\nWłaściciel: AjoN\n\nOrganizacja: HauWaa\n\nDoba: 100$", false, dom.okno)
+        guiLabelSetHorizontalAlign(dom.desc_info, "center", false)
+        guiLabelSetVerticalAlign(dom.desc_info, "center")    
+    end
+)
